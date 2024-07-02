@@ -1,10 +1,10 @@
 ﻿# GUIA DE CYBERSECURITY - BLUE TEAM/SOC
 
 Bem-vindo ao "Guia de Cybersecurity - Blue Team/SOC"! Este documento foi cuidadosamente elaborado para fornecer uma visão abrangente e prática do mundo da segurança cibernética do ponto de vista da equipe de defesa (Blue Team) e do Centro de Operações de Segurança (SOC).
-Este guia abordará desde uma análise do mercado atual de segurança cibernética, destacando as tendências e demandas mais recentes, até caminhos de carreira e recursos educacionais que podem ajudá-lo a desenvolver as habilidades essenciais para ingressar ou progredir nesta área. Exploraremos tanto os conhecimentos básicos indispensáveis para qualquer profissional de segurança cibernética, quanto os conhecimentos específicos voltados para o ambiente de SOC e operações de defesa cibernética.
-Além disso, forneceremos uma lista de cursos gratuitos (muitos com certificado), sites para prática de habilidades e referências confiáveis para que você possa continuar aprimorando seus conhecimentos e se manter atualizado com as melhores práticas e tendências emergentes em segurança cibernética.
 
-Preparado para mergulhar no fascinante mundo da segurança cibernética defensiva? Vamos começar!
+Este guia abordará desde uma análise do mercado atual de segurança cibernética, destacando as tendências e demandas mais recentes, até caminhos de carreira e recursos educacionais que podem ajudá-lo a desenvolver as habilidades essenciais para ingressar ou progredir nesta área. Exploraremos tanto os conhecimentos básicos indispensáveis para qualquer profissional de segurança cibernética, quanto os conhecimentos específicos voltados para o ambiente de SOC e operações de defesa cibernética.
+
+Além disso, forneceremos uma lista de cursos gratuitos (muitos com certificado), sites para prática de habilidades e referências confiáveis para que você possa continuar aprimorando seus conhecimentos e se manter atualizado com as melhores práticas e tendências emergentes em segurança cibernética.
 
 
 ## Sumário
@@ -559,7 +559,7 @@ Recompensas Financeiras: À medida que você progride na carreira e se torna mai
 | CURSO | ORGANIZAÇÃO | TEMPO |  CERTIFICADO |
 |--|--|--|--|
 | [Introduction to Cysersecurity](https://skillsforall.com/course/introduction-to-cybersecurity?courseLang=pt-BR) | CISCO | 6 Horas | Sim |
-| [Fortinet Associate](https://training.fortinet.com/local/library/?category=Certification%3AFCA_Cybersecurity) | CISCO | 6 Horas | Sim |
+| [Fortinet Associate](https://training.fortinet.com/local/library/?category=Certification%3AFCA_Cybersecurity) | Fortinet | 6 Horas | Sim |
 | [Digital Forensics Essentials](https://codered.eccouncil.org/course/digital-forensics-essentials) | ECCOUNCIL | 11 Horas | Sim |
 | [Fortinet Essentials](https://training.fortinet.com/local/library/?category=Certification%3AFCF_Cybersecurity) | Fortinet | 11 Horas | Sim |
 | [Segurança em T.I.](https://www.ev.org.br/cursos/seguranca-em-tecnologia-da-informacao) | Bradesco| 12 Horas | Sim |
@@ -603,43 +603,53 @@ Recompensas Financeiras: À medida que você progride na carreira e se torna mai
 
 
 ### Paths (conjunto de cursos)
-https://skillsforall.com/career-path/cybersecurity?courseLang=pt-BR
-https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=pt-BR
-https://www.ev.org.br/trilhas-de-conhecimento/seguranca-da-informacao
 
----
+**IBSEC (Possui várias certificações gratuitas):** https://conteudo.ibsec.com.br/br-certificacao-de-ti-gratuita
 
-https://www.linkedin.com/pulse/free-exam-voucher-certified-cybersecurity-arjun-kumar
-https://www.isc2.org/Certifications/CC
+**- CISCO Cybersecurity Path:** https://skillsforall.com/career-path/cybersecurity?courseLang=pt-BR
+
+**- CISCO Packet Tracer:** https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=pt-BR
+
+**- Path Segurança da informação EV.G:** https://www.ev.org.br/trilhas-de-conhecimento/seguranca-da-informacao
+
+
 
 ---
 <a id="sites-pratica"></a>  
 ## Sites para prática
 
-https://blueteam.academy/
+**Tarefas blue team:**
+- https://blueteam.academy
+- https://app.letsdefend.io/training
 
-https://app.letsdefend.io/training
+**Linux:**
+- https://linuxjourney.com/
+- https://overthewire.org/wargames/
 
-https://linuxjourney.com/
-
-https://overthewire.org/wargames/
-
-https://opensoc.io/
-
-https://www.begin.re
+**Engenharia reversa:**
+- https://www.begin.re
 
 <a id="referencias"></a>  
 ## Referências
 
 [ROADMAP](https://roadmap.sh/cyber-security)
+
 [MEDIUM - COMO COMEÇAR A ESTUDAR CIBRSEGURANÇA](https://medium.com/@tarponise/como-come%C3%A7ar-a-estudar-ciberseguran%C3%A7a-c3d1b4c6f7bc)
+
 [MEDIUM - GUIA PARA INICIANTES EM CYBER THREAT INTELLIGENCE](https://medium.com/@tarponise/um-guia-self-study-para-iniciantes-em-cyber-threat-intelligence-ebb5d50b3d61)
+
 [MEDIUM - HOW TO STUDY CBERSECURITY FOR FREE](https://medium.com/@kashi.sh/how-to-study-cyber-security-on-your-own-for-free-a4f894dad919)
+
 [GITHUB - GUIA CYBERSECURITY  - ARTHURSPK](https://github.com/arthurspk/guiadecybersecurity)
+
 [GITHUB - GUIA - DANIEL DONDA](https://github.com/danieldonda/Cybersecurity101)
+
 [GITHUB - ROADMAP - XPSEC](https://github.com/XPSec-Security/roadmap)
+
 [GITHUB - AWESOME CYSERSECURITY BLUETEAM](https://github.com/fabacab/awesome-cybersecurity-blueteam)
+
 [GITHUB - AWESOME SECURITY](https://github.com/sindresorhus/awesome?tab=readme-ov-file#security)
+
 [GITHUB - AWESOME SECURITY 2](https://github.com/sbilly/awesome-security#readme)
 
 
