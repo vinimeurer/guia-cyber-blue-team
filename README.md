@@ -1,10 +1,10 @@
 ﻿# GUIA DE CYBERSECURITY - BLUE TEAM/SOC
 
-Bem-vindo ao "Guia de Cybersecurity - Blue Team/SOC"! Este documento foi cuidadosamente elaborado para fornecer uma visão abrangente e prática do mundo da segurança cibernética do ponto de vista da equipe de defesa (Blue Team) e do Centro de Operações de Segurança (SOC).
+Este documento foi cuidadosamente elaborado para fornecer uma visão abrangente e prática do mundo da segurança cibernética do ponto de vista da equipe de defesa (Blue Team) e do Centro de Operações de Segurança (SOC).
 
-Este guia abordará desde uma análise do mercado atual de segurança cibernética, destacando as tendências e demandas mais recentes, até caminhos de carreira e recursos educacionais que podem ajudá-lo a desenvolver as habilidades essenciais para ingressar ou progredir nesta área. Exploraremos tanto os conhecimentos básicos indispensáveis para qualquer profissional de segurança cibernética, quanto os conhecimentos específicos voltados para o ambiente de SOC e operações de defesa cibernética.
+Este guia abordará desde uma análise do mercado atual de segurança cibernética, destacando as ferramentas e habilidades mais usadas, até caminhos de carreira e recursos educacionais que podem ajudá-lo a desenvolver as habilidades essenciais para ingressar ou progredir ná área. Serão abordadso tanto os conhecimentos básicos indispensáveis para qualquer profissional de segurança cibernética, quanto os conhecimentos específicos voltados para o ambiente de SOC e operações de defesa cibernética.
 
-Além disso, forneceremos uma lista de cursos gratuitos (muitos com certificado), sites para prática de habilidades e referências confiáveis para que você possa continuar aprimorando seus conhecimentos e se manter atualizado com as melhores práticas e tendências emergentes em segurança cibernética.
+Além disso, será disponibilizada uma lista de cursos gratuitos (muitos com certificado), sites para prática de habilidades e referências confiáveis para que você possa continuar aprimorando seus conhecimentos e se manter atualizado com as melhores práticas e tendências emergentes em segurança cibernética.
 
 
 ## Sumário
@@ -56,10 +56,15 @@ Além disso, forneceremos uma lista de cursos gratuitos (muitos com certificado)
 - Cisco
 	- [CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
 - Fortinet
+
  - CompTIA
 	 - [Security+](https://www.comptia.org/pt/certificacoes/security)
 	 - [CySA+](https://www.comptia.org/pt/certificacoes/cybersecurity-analyst)
+
 - EC-Council
+     - [Certified SOC Analyst (CSA)](https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/) 
+	- [Certified Incident Handler (CIH)](https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/ ) 
+	 - [Certified Network Defender (CND)](https://www.eccouncil.org/train-certify/certified-network-security-course/) 
 
 - Blue Team
 	- [BTL1](https://www.securityblue.team/why-btl1) 
@@ -117,15 +122,6 @@ Existem porém muitas fontes boas na Internet para se familiarizar e entender os
 
 ---
 
-Educação: Comece com uma graduação em áreas como Ciência da Computação ou Segurança da Informação.
-
-Certificações e Experiência Inicial: Adquira certificações básicas (como CompTIA Security+) e ganhe experiência através de estágios ou posições de nível júnior.
-
-Avanço Profissional: Continue investindo em certificações avançadas (como CISSP, CISM) e acumule experiência em áreas especializadas.
-
-Recompensas Financeiras: À medida que você progride na carreira e se torna mais especializado, espere salários mais altos e melhores benefícios.
-
-
 <a id="conhecimentos-basicos"></a>  
 ## Conhecimentos Básicos
 
@@ -153,8 +149,84 @@ Recompensas Financeiras: À medida que você progride na carreira e se torna mai
 
 1. **Habilidades básicas**
    -  Navegação e Comandos de Linha de Comando
-       - Navegar por arquivos e diretórios
-       - Manipular arquivos
+       - Navegar e manipular diretórios
+
+	       - **Windows**
+		   
+				| FUNÇÃO | COMANDO |
+				|--|--|
+				| [Listar Diretórios](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/dir) | `dir` |
+				| [Navegar entre Diretórios](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/dir) | `cd` |
+				| [Criação Diretórios](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/dir) | `mkdir` ou `md` |
+				| [Excluir Diretórios](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/rmdir) | `rmdir` ou `rd` |
+				| [Mover Diretórios](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/move) | `move` |
+				
+
+	       - **Linux**
+
+				| FUNÇÃO | COMANDO |
+				|--|--|
+				| [Listar Diretórios](https://manpages.ubuntu.com/manpages/oracular/en/man1/ls.1.html) | `ls` |
+				| [Navegar entre diretórios](https://manpages.ubuntu.com/manpages/oracular/man1/cd.1posix.html) | `cd` |
+				| [Criar diretórios](https://manpages.ubuntu.com/manpages/noble/man1/mkdir.1.html) | `mkdir` |
+				| [Excluir Diretórios](https://manpages.ubuntu.com/manpages/oracular/man1/rm.1.html) | `rmdir` |
+				| [Mover Diretórios](https://manpages.ubuntu.com/manpages/mantic/man1/mv.1.html) | `mv` |
+	   
+
+       - Navegar e manipular arquivos
+
+	       - **Windows**
+
+				| FUNÇÃO | COMANDO |
+				|--|--|
+				| [Criar um arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/type) | `type nul >` ou `echo >` |
+				| [Visualizar conteudo de um arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/type) | `type` |
+				| [Inserir/sobrescrever texto em um arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/echo) | `echo >` |
+				| [Adicionar texto a um conteudo existente](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/echo) | `echo >>` |
+				| [Abrir arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/start) | `start` |
+				| [Excluir arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/del) | `del` |
+				| [Mover arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/move) | `move` |
+				| [Copiar arquivo](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/copy) | `copy` |
+
+	       - **Linux**
+		   
+				| FUNÇÃO | COMANDO |
+				|--|--|
+				| [Criar um arquivo](https://manpages.ubuntu.com/manpages/oracular/en/man1/touch.1.html) | `touch` |
+				| [Visualizar conteudo de um arquivo](https://manpages.ubuntu.com/manpages/oracular/man1/cat.1.html) | `cat` |
+				| [Inserir/sobrescrever texto em um arquivo](https://manpages.ubuntu.com/manpages/oracular/man1/echo.1.html) | `echo >` |
+				| [Adicionar texto a um conteudo existente](https://manpages.ubuntu.com/manpages/oracular/man1/echo.1.html) | `echo >>` |
+				| [Abrir arquivo](https://manpages.ubuntu.com/manpages/oracular//pt_BR/man1/nano.1.html) | `nano` |
+				| [Excluir arquivo](https://manpages.ubuntu.com/manpages/xenial/man1/rm.1.html) | `rm` |
+				| [Mover arquivo](https://manpages.ubuntu.com/manpages/mantic/man1/mv.1.html) | `mv` |
+				| [Copiar arquivo](https://manpages.ubuntu.com/manpages/oracular/man1/cp.1.html) | `cp` |
+
+   	   - Administração de usuários
+
+	       - **Windows**
+
+				| FUNÇÃO | COMANDO |
+				|--|--|
+				| [Visualizar usuários](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user` |
+				| [Criar usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user "usuário" "senha" /add` |
+				| [Modificar senha de usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user "usuário" "nova senha"` |
+				| [Desativar usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | ``net user "usuário" /active:no`` |
+				| [Ativar usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | ``net user "usuário" /active:yes`` |
+				| [Excluir usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user "usuário" /delete` |
+
+	       - **Linux**
+
+				| FUNÇÃO | COMANDO |
+				|--|--|
+				| [Visualizar usuários](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user` |
+				| [Criar usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user "usuário" "senha" /add` |
+				| [Modificar senha de usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user "usuário" "nova senha"` |
+				| [Desativar usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | ``net user "usuário" /active:no`` |
+				| [Ativar usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | ``net user "usuário" /active:yes`` |
+				| [Excluir usuário](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11)) | `net user "usuário" /delete` |
+
+
+
        - Gerenciar usuários e permissões
    - Configuração de Rede
        - Comandos de trubleshooting
@@ -169,10 +241,7 @@ Recompensas Financeiras: À medida que você progride na carreira e se torna mai
 	   - Parar serviços
 	   - Reiniciar serviços
 	   - Verificar o status de serviços
-   - Administração de Contas de Usuário
-	   - Criar contas de usuário
-	   - Modificar contas de usuário
-	   - Excluir contas de usuário
+
 
 > **Nota:** Os conhecimentos acima são básicos e deve-se ter conhecimento das funções em todos os sistemas operacionais
 
